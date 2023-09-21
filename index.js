@@ -10,6 +10,9 @@ function replaceText(word, replacement, text) {
   // Створення регулярного виразу для пошуку слова з флагом 'g' (глобальний пошук).
   // Використання методу `replace` регулярного виразу для заміни слова на фразу у тексті.
   // Повернення заміненого тексту.
+  let newReg = new RegExp(word, g);
+
+  let replaceWord = newReg.replace(/replacement/text);
 }
 
 // Перевірка
